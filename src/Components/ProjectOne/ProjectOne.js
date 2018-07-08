@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 //React Reveal
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 //Styling
 import './ProjectOne.css';
@@ -20,7 +20,7 @@ class ProjectOne extends Component {
             </div>
         </div>
 
-        <Fade right>
+        <Slide right>
         <div className="project-one-preview">
             <div className="project-one-phone">
                 <div className="project-one-phone-top">
@@ -30,7 +30,7 @@ class ProjectOne extends Component {
                 <img src={require('../../assets/UCM-login.png')} alt="Utah Car Meet Login"/>
             </div>
         </div>
-        </Fade>
+        </Slide>
       </div>
     )
   }

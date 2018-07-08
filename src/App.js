@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-//React Reveal
-import Fade from 'react-reveal/Fade';
-
 //React PaticleJs
 import Particles from 'react-particles-js';
 
@@ -206,12 +203,10 @@ class App extends Component {
           </nav>
 
         {/* Welcome message */}
-        <Fade left>
         <div className="welcome-container">
           <h1>TAYTE STOKES</h1>
           <h2>Web Developer</h2>
         </div>
-        </Fade>
 
         <div className="arrow-down">
           <FontAwesomeIcon icon='chevron-down' />
