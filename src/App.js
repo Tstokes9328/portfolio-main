@@ -25,6 +25,7 @@ import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Tech from './Components/Technologies/Technologies';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 //Styling
 import 'reset-css';
@@ -184,7 +185,7 @@ class App extends Component {
                 <AnchorLink href="#about"><li>About</li></AnchorLink>
                 <AnchorLink href="#skills"><li>Skills</li></AnchorLink>
                 <AnchorLink href=""><li>Portfolio</li></AnchorLink>
-                <AnchorLink href=""><li>Contact</li></AnchorLink>
+                <AnchorLink href="#contact"><li>Contact</li></AnchorLink>
               </ul>
             </div>
           </div>
@@ -194,7 +195,7 @@ class App extends Component {
                 <AnchorLink href="#about"><li>About</li></AnchorLink>
                 <AnchorLink href="#skills"><li>Skills</li></AnchorLink>
                 <AnchorLink href=""><li>Portfolio</li></AnchorLink>
-                <AnchorLink href=""><li>Contact</li></AnchorLink>
+                <AnchorLink href="#contact"><li>Contact</li></AnchorLink>
               </ul>
             </div>
           </nav>
@@ -214,6 +215,7 @@ class App extends Component {
         <Skills/>
         <Tech />
         <Contact />
+        <Footer />
 
       </div>
     );

@@ -16,6 +16,11 @@
     color: #ff305b;
     margin-top: 10%;
 }
+.contact-container > p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+}
 
 .form-container {
     width: 100%;
@@ -82,8 +87,111 @@
     border-radius: 4px 4px 4px 4px;
     margin-top: 7%;
     margin-left: -45%;
+    outline: none;
 }
 
 #message {
     margin-right: 10px;
+}
+
+@media (min-width: 1024px){
+    .contact-container {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .contact-container > h1 {
+        font-size: 35px;
+        color: #ff305b;
+        margin-top: 3%;
+    }
+    .contact-container > p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    .form-container {
+        width: 60%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+    }
+    
+    .name-email-container {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .name-email-container > input {
+        width: 44.7%;
+        height: 40px;
+        border-radius: 4px 4px 4px 4px;
+        font-size: 16px;
+        padding-left: 5px;
+        border: 2px solid #1a1a1a;
+        font-family: 'Montserrat', sans-serif;
+        outline-color: #ff305b;
+    }
+    
+    .form-container > input {
+        width: 95%;
+        height: 50px;
+        border-radius: 4px 4px 4px 4px;
+        font-size: 16px;
+        padding-left: 5px;
+        border: 2px solid #1a1a1a;
+        font-family: 'Montserrat', sans-serif;
+        outline-color: #ff305b;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    
+    .form-container > textarea {
+        width: 95%;
+        height: 200px;
+        border-radius: 4px 4px 4px 4px;
+        font-size: 16px;
+        padding-left: 5px;
+        border: 2px solid #1a1a1a;
+        font-family: 'Montserrat', sans-serif;
+        outline-color: #ff305b;
+        margin-top: 5%;
+    }
+    
+    .form-container > button {
+        background-color: #ff305b;
+        border: none;
+        color: white;
+        padding: 12px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 4px 4px 4px 4px;
+        margin-top: 3%;
+        margin-left: -76.5%;
+        outline: none;
+    }
+
+    .form-container > button:hover {
+        background: #1a1a1a;
+        color: #ff305b;
+        cursor: pointer;
+    }
+    
+    #message {
+        margin-right: 10px;
+    }
 }
