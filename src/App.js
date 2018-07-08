@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//React Reveal
+import Fade from 'react-reveal/Fade';
+
 //React PaticleJs
 import Particles from 'react-particles-js';
 
@@ -24,6 +27,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Tech from './Components/Technologies/Technologies';
+import Portfolio from './Components/Portfolio/Portfolio';
+import ProjectOne from './Components/ProjectOne/ProjectOne';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
@@ -184,7 +189,7 @@ class App extends Component {
               <ul>
                 <AnchorLink href="#about"><li>About</li></AnchorLink>
                 <AnchorLink href="#skills"><li>Skills</li></AnchorLink>
-                <AnchorLink href=""><li>Portfolio</li></AnchorLink>
+                <AnchorLink href="#projects"><li>Projects</li></AnchorLink>
                 <AnchorLink href="#contact"><li>Contact</li></AnchorLink>
               </ul>
             </div>
@@ -194,17 +199,19 @@ class App extends Component {
               <ul>
                 <AnchorLink href="#about"><li>About</li></AnchorLink>
                 <AnchorLink href="#skills"><li>Skills</li></AnchorLink>
-                <AnchorLink href=""><li>Portfolio</li></AnchorLink>
+                <AnchorLink href="#projects"><li>Projects</li></AnchorLink>
                 <AnchorLink href="#contact"><li>Contact</li></AnchorLink>
               </ul>
             </div>
           </nav>
 
         {/* Welcome message */}
+        <Fade left>
         <div className="welcome-container">
           <h1>TAYTE STOKES</h1>
           <h2>Web Developer</h2>
         </div>
+        </Fade>
 
         <div className="arrow-down">
           <FontAwesomeIcon icon='chevron-down' />
@@ -214,6 +221,8 @@ class App extends Component {
         <About/>
         <Skills/>
         <Tech />
+        <Portfolio />
+        <ProjectOne />
         <Contact />
         <Footer />
 

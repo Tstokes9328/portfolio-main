@@ -123,7 +123,6 @@ canvas {
     justify-content: flex-start;
     align-items: center;
     margin-top: 35%;
-    animation: fadeIn 1s;
 }
 
 .welcome-container > h1 {
@@ -170,13 +169,13 @@ canvas {
 }
 
 @keyframes enlarge {
-    from {font-size: 45px}
-    50% {font-size: 50px; margin-bottom: 2%}
-    to {font-size: 55px}
-    100% {font-size: 60px; margin-bottom: 1%}
-    to {font-size: 55px}
-    50% {font-size: 50px; margin-bottom: 2%}
-    to {font-size: 45px}
+    from {font-size: 45px; margin-bottom: 2%}
+    50% {font-size: 50px; margin-bottom: 1.5%}
+    to {font-size: 55px; margin-bottom: 1%}
+    100% {font-size: 60px; margin-bottom: .5%}
+    to {font-size: 55px; margin-bottom: 1%}
+    50% {font-size: 50px; margin-bottom: 1.5%}
+    to {font-size: 45px; margin-bottom: 2%}
 }
 
 @keyframes fadeIn {
