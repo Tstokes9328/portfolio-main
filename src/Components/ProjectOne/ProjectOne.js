@@ -10,6 +10,7 @@ class ProjectOne extends Component {
   render() {
     return (
       <div className="project-one-container">
+      <Slide delay={500} left>
         <div className="project-one-info">
             <h1>Utah Car Meet</h1>
             <h2>React | Redux | NodeJs | ExpressJs | PostgreSQL</h2>
@@ -19,8 +20,9 @@ class ProjectOne extends Component {
                 <a href="https://github.com/Tstokes9328/dev-mtn-personal/tree/master/utah-car-meet"><h2>Github</h2></a>
             </div>
         </div>
+        </Slide>
 
-        <Slide right>
+        <Slide delay={500} right>
         <div className="project-one-preview">
             <div className="project-one-phone">
                 <div className="project-one-phone-top">

@@ -47,7 +47,7 @@ class About extends Component {
           <div className="social-container">
             <a href="https://www.instagram.com/taytestokes/"><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
             <a href="https://www.facebook.com/tayte.stokes.9?ref=bookmarks"><FontAwesomeIcon icon={["fab", "facebook"]} /></a>
-            <a href="https://twitter.com/taytestokes"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+            {/* <a href="https://twitter.com/taytestokes"><FontAwesomeIcon icon={["fab", "twitter"]} /></a> */}
           </div>
 
         </div>

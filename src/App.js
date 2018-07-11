@@ -26,6 +26,7 @@ import Skills from './Components/Skills/Skills';
 import Tech from './Components/Technologies/Technologies';
 import Portfolio from './Components/Portfolio/Portfolio';
 import ProjectOne from './Components/ProjectOne/ProjectOne';
+import ProjectTwo from './Components/ProjectTwo/ProjectTwo';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
@@ -218,6 +219,7 @@ class App extends Component {
         <Tech />
         <Portfolio />
         <ProjectOne />
+        <ProjectTwo />
         <Contact />
         <Footer />
 
