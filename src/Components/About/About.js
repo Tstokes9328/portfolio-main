@@ -22,8 +22,8 @@ class About extends Component {
 
         <div className="about-split-container">
         <div className="personal-bio-container">
-          <h1>About Me,</h1>
-          <p>I'm a simple guy who loves to do not so simple things. When I'm not hunched over my computer writing code you can usually catch me riding my skateboard, burying my head into a book, kicking butt at smash bros, or spending time with my friends and family.</p>
+          <h1>About Me</h1>
+          <p>I'm a simple guy who loves to do not so simple things. When I'm not hunched over my computer writing code you can usually catch me riding my skateboard, burying my head into a book, kicking butt at Smash Bros, or spending time with my friends and family.</p>
         </div>
 
         <hr />
@@ -32,11 +32,6 @@ class About extends Component {
           <div className="info-name">
             <h1>Name:</h1>
             <h2>Tayte Stokes</h2>
-          </div>
-
-          <div className="info-age">
-            <h1>Age:</h1>
-            <h2>21 yrs young</h2>
           </div>
 
           <div className="info-location">

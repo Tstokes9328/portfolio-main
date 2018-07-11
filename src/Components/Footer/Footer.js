@@ -26,8 +26,8 @@ export default () => {
         </div>
 
         <div className="footer-address">
-            <h1>Address</h1>
-            <h2>1692 W 1000 S Lehi, UT</h2>
+            <h1>Location</h1>
+            <h2>Lehi, UT</h2>
         </div>
         </div>
 

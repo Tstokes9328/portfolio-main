@@ -56,7 +56,7 @@ class Contact extends Component {
     return (
       <div className="contact-container" id="contact">
         <h1>Contact Me</h1>
-        <p>I usually respond within a couple of hours</p>
+        <p>I usually respond within a couple of hours.</p>
         <div className="form-container">
             <div className="name-email-container">
                 <input type="text" placeholder="Name" onChange={(e) => this.handleInputName(e.target.value)} value={this.state.name}/>
