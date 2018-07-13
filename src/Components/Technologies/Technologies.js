@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+//React Reveal
+import Fade from 'react-reveal/Fade'
+
 //Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -11,7 +14,7 @@ class Technologies extends Component {
     return (
       <div className="tech-container">
 
-
+        <Fade top delay={500}>
         <div className="tech-row-one">
             <div className="row-one-card-one">
                 <FontAwesomeIcon icon={["fab", "html5"]} id="html"/>
@@ -28,7 +31,9 @@ class Technologies extends Component {
                 <h1 style={{fontSize: '15px'}}>JavaScript</h1>
             </div>
         </div>
+        </Fade>
 
+        <Fade top delay={500}>
         <div className="tech-row-two">
             <div className="row-one-card-one">
                 <FontAwesomeIcon icon={["fab", "react"]} id="react"/>
@@ -45,7 +50,9 @@ class Technologies extends Component {
                 <h1>SQL</h1>
             </div>
         </div>
+        </Fade>
 
+        <Fade top delay={500}>
         <div className="tech-row-three">
             <div className="row-one-card-one">
                 <FontAwesomeIcon icon={["fab", "git-square"]} id="git"/>
@@ -62,6 +69,7 @@ class Technologies extends Component {
                 <h1 style={{textAlign: 'center', fontSize: '13px'}}>Responsive Design</h1>
             </div>
         </div>
+        </Fade>
 
 
       </div>

@@ -14,9 +14,9 @@ class ProjectTwo extends Component {
         <div className="project-two-info">
             <h1>Spootify</h1>
             <h2>React | Redux | NodeJs | PassportJs | Spotify API</h2>
-            <p>Spootify is a group developed app that I worked on with <a href="#">Mikhail Korotkov</a> and <a href="http://jordanbuonforte.com">Jordan Buonforte</a>. The goal of the project was to clone the spotify desktop application, but within a web browser. Using Spotify's web API and playback SDK, we we're able to recreate a sleek looking Spotify clone as well as producing music playback. My main responsibilty was to achieve authentication using a users Spotify information through PassportJs, setting up the NodeJs server to connect to th Spotify API, and initializing and connecting the Spotify SDK music player.</p>
+            <p>Spootify is a group developed app that I worked on with <a href="http://mkorotkov.com">Mikhail Korotkov</a> and <a href="http://jordanbuonforte.com">Jordan Buonforte</a>. The goal of the project was to clone the spotify desktop application, but within a web browser. Using Spotify's web API and playback SDK, we we're able to recreate a sleek looking Spotify clone as well as producing music playback. My main responsibilty was to achieve authentication using a users Spotify information through PassportJs, setting up the NodeJs server to connect to th Spotify API, and initializing and connecting the Spotify SDK music player.</p>
             <div className="project-two-links">
-                <a href="#"><h1>Live Site</h1></a>
+                <a href="https://spootify.org"><h1>Live Site</h1></a>
                 <a href="https://github.com/spootify/spootify"><h2>Github</h2></a>
             </div>
         </div>
