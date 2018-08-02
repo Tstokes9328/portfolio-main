@@ -3,11 +3,12 @@ const express = require('express');
 const bodyPaser = require('body-parser');
 const nodemailer = require('nodemailer');
 
-app.use( express.static( `${__dirname}/../build` ) );
 
 //Using Express
 const app = express();
 app.use(bodyPaser.json());
+
+app.use( express.static( `${__dirname}/../build` ) );
 
 //ENV FILE
 let { EMAIL_PASSWORD } = process.env;
