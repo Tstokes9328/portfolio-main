@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+//React Bootstrap
+import {Carousel} from 'react-bootstrap';
+
 //React Reveal
 import Slide from 'react-reveal/Slide';
 
@@ -24,13 +27,20 @@ class ProjectTwo extends Component {
 
         <Slide delay={500} left>
         <div className="project-two-preview">
-            <div className="project-two-phone">
-                <div className="project-two-phone-top">
-                    <div className="phone2-camera"></div>
-                    <div className="phone2-speaker"></div>
-                </div>
-                <img src={require('../../assets/spootify.png')} alt="Utah Car Meet Login"/>
-            </div>
+            <Carousel interval={7500}>
+            <Carousel.Item>
+                    <img width={700} height={350} alt="900x500" src={require('../../assets/spootify-login.jpeg')} />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img width={700} height={350} alt="900x500" src={require('../../assets/spootify-home.jpeg')} />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img width={700} height={350} alt="900x500" src={require('../../assets/spootify-overview.jpeg')} />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img width={700} height={350} alt="900x500" src={require('../../assets/spootify-songs.jpeg')} />
+                </Carousel.Item>
+            </Carousel>
         </div>
         </Slide>
       </div>
