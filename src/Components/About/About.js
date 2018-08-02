@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 //React Reveal
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 //Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,11 +14,11 @@ class About extends Component {
   render() {
     return (
       <div className="about-container" id="about">
-        <Slide left>
+        <Fade>
         <div className="img-container">
 
         </div>
-        </Slide>
+        </Fade>
 
         <div className="about-split-container">
         <div className="personal-bio-container">
