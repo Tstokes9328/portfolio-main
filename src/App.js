@@ -221,7 +221,6 @@ class App extends Component {
         <Portfolio />
         <ProjectOne />
         <ProjectTwo />
-        <ProjectThree />
         <Contact />
         <Footer />
 
