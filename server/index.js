@@ -3,6 +3,8 @@ const express = require('express');
 const bodyPaser = require('body-parser');
 const nodemailer = require('nodemailer');
 
+app.use( express.static( `${__dirname}/../build` ) );
+
 //Using Express
 const app = express();
 app.use(bodyPaser.json());
