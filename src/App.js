@@ -27,12 +27,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
-import Tech from './Components/Technologies/Technologies';
 import Portfolio from './Components/Portfolio/Portfolio';
-import PortfolioTwo from './Components/Portfolio/PortfolioTwo';
-import ProjectOne from './Components/ProjectOne/ProjectOne';
-import ProjectTwo from './Components/ProjectTwo/ProjectTwo';
-import ProjectThree from './Components/ProjectThree/ProjectThree';
+import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
@@ -50,7 +46,7 @@ class App extends Component {
     return (
       <div className="App">
 
-      <div className="header-container">
+      <div className="header-container" id="home">
       <Particles params={{
         "particles": {
           "number": {
@@ -165,7 +161,7 @@ class App extends Component {
         <Navbar />
 
         {/* Welcome message */}
-        <div className="welcome-container" id="home">
+        <div className="welcome-container">
           <h1>TAYTE STOKES</h1>
           <h2>Web Developer</h2>
         </div>
@@ -178,7 +174,7 @@ class App extends Component {
         <About/>
         <Skills/>
         <Portfolio />
-        <PortfolioTwo />
+        <Projects />
         <Contact />
         <Footer />
 

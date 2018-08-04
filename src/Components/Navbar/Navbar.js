@@ -45,7 +45,7 @@ class Navbar extends Component {
             <div className={this.state.dropDown ? "dropDownTrue" : "dropDownFalse"}>
                 <ul>
                 <AnchorLink offset={() => 25} href="#about"><li onClick={this.handleLinkClick}>About</li></AnchorLink>
-                <AnchorLink offset={() => 50} href="#skills"><li onClick={this.handleLinkClick}>Skills</li></AnchorLink>
+                <AnchorLink offset={() => 80} href="#skills"><li onClick={this.handleLinkClick}>Skills</li></AnchorLink>
                 <AnchorLink offset={() => 65} href="#projects"><li onClick={this.handleLinkClick}>Portfolio</li></AnchorLink>
                 <AnchorLink offset={() => 70} href="#contact"><li onClick={this.handleLinkClick}>Contact</li></AnchorLink>
                 </ul>
@@ -55,9 +55,9 @@ class Navbar extends Component {
             <div className="full-screen-nav-list">
                 <ul>
                 <AnchorLink  offset={() => 70} href="#about"><li>About</li></AnchorLink>
-                <AnchorLink offset={() => 50} href="#skills"><li>Skills</li></AnchorLink>
-                <AnchorLink offset={() => 70} href="#projects"><li>Portfolio</li></AnchorLink>
-                <AnchorLink offset={() => 70} href="#contact"><li>Contact</li></AnchorLink>
+                <AnchorLink offset={() => 85} href="#skills"><li>Skills</li></AnchorLink>
+                <AnchorLink offset={() => 85} href="#projects"><li>Portfolio</li></AnchorLink>
+                <AnchorLink offset={() => 85} href="#contact"><li>Contact</li></AnchorLink>
                 </ul>
             </div>
             </nav>

@@ -40,7 +40,7 @@
 
 .personal-bio-container > h1 {
     font-size: 40px;
-    color: #ff305b;
+    color: #1a1a1a;
     margin-left: 5%;
     margin-top: 10%;
 }
@@ -89,9 +89,10 @@
     
     .personal-bio-container > h1 {
         font-size: 40px;
-        color: #ff305b;
+        color: #1a1a1a;
         margin-left: 0;
         margin-top: 5%;
+        letter-spacing: 3px;
     }
     
     .personal-bio-container > p {

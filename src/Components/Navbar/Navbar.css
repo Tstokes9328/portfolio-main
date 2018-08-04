@@ -24,7 +24,7 @@
     font-size: 25px;
     margin-left: 10%;
     margin-top: 6.5%;
-    color: #ff305b;
+    color: #eee;
     text-decoration: none;
 }
 
@@ -115,7 +115,7 @@
     font-size: 30px;
     margin-left: 0;
     margin-top: 0;
-    color: #ff305b;
+    color: #eee;
 }
 
 .patty-container {
@@ -145,6 +145,6 @@
 }
 
 .full-screen-nav-list > ul > a :hover {
-    color: #ff305b;
+    color: #757575;
 }
 }
