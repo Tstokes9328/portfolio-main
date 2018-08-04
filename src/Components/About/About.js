@@ -26,8 +26,6 @@ class About extends Component {
           <p>I'm a simple guy who loves to do not so simple things. When I'm not hunched over my computer writing code you can usually catch me riding my skateboard, burying my head into a book, kicking butt at Smash Bros, or spending time with my friends and family.</p>
         </div>
 
-        <hr />
-
         <div className="personal-info-container">
           <div className="info-name">
             <h1>Name:</h1>

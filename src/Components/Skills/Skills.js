@@ -12,7 +12,7 @@ class Skills extends Component {
     return (
     <div className="skills-container" id="skills">
         <div className="services-container">
-            <h1>What I Can Do</h1>
+            <h1>Skills</h1>
 
             <div className="services-card-container">
                 <div className="front-end-container">

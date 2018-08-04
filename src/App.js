@@ -177,7 +177,7 @@ class App extends Component {
 
         <About/>
         <Skills/>
-        <Tech />
+        {/* <Tech /> */}
         <Portfolio />
         <PortfolioTwo />
         <Contact />
