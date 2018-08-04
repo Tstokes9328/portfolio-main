@@ -46,7 +46,7 @@ class Navbar extends Component {
                 <ul>
                 <AnchorLink offset={() => 25} href="#about"><li onClick={this.handleLinkClick}>About</li></AnchorLink>
                 <AnchorLink offset={() => 50} href="#skills"><li onClick={this.handleLinkClick}>Skills</li></AnchorLink>
-                <AnchorLink offset={() => 65} href="#projects"><li onClick={this.handleLinkClick}>Projects</li></AnchorLink>
+                <AnchorLink offset={() => 65} href="#projects"><li onClick={this.handleLinkClick}>Portfolio</li></AnchorLink>
                 <AnchorLink offset={() => 70} href="#contact"><li onClick={this.handleLinkClick}>Contact</li></AnchorLink>
                 </ul>
             </div>
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 <ul>
                 <AnchorLink  offset={() => 70} href="#about"><li>About</li></AnchorLink>
                 <AnchorLink offset={() => 50} href="#skills"><li>Skills</li></AnchorLink>
-                <AnchorLink offset={() => 70} href="#projects"><li>Projects</li></AnchorLink>
+                <AnchorLink offset={() => 70} href="#projects"><li>Portfolio</li></AnchorLink>
                 <AnchorLink offset={() => 70} href="#contact"><li>Contact</li></AnchorLink>
                 </ul>
             </div>
