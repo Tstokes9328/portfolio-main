@@ -3,7 +3,7 @@
 
 .about-container {
     width: 100vw;
-    height: 160vh;
+    height: 145vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -23,7 +23,7 @@
     background-position: 0 -80px;
     border-radius: 4px 4px 4px 4px;
     z-index: 2;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .img-container:hover {

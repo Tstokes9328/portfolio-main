@@ -56,6 +56,7 @@
     font-size: 18px;
     width: 85%;
     margin-top: 10%;
+    line-height: 125%;
 }
 
 .project-link-container > button {
@@ -92,7 +93,7 @@
     
     #desktop {
         position: absolute;
-        font-size: 350px;
+        font-size: 300px;
         left: 20%;
         top: 5%;
         color: #757575;
@@ -101,16 +102,16 @@
     #tablet {
         position: absolute;
         font-size: 150px;
-        top: 50%;
-        right: 16%;
+        top: 40%;
+        right: 22%;
         
     }
     
     #portfolio-mobile {
         position: absolute;
         font-size: 120px;
-        top: 57%;
-        left: 15%;
+        top: 47%;
+        left: 14%;
     }
     
     .project-link-container {
@@ -125,14 +126,16 @@
     .project-link-container > p {
         color: #f1f1f1;
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
         width: 85%;
-        margin-top: 10%;
+        margin-top: 5%;
+        line-height: 150%;
     }
     
     .project-link-container > button {
-        font-size: 28px;
+        font-size: 22px;
         padding: 20px 55px;
+        margin-top: 8%;
     }
 
     .project-link-container > button:hover {

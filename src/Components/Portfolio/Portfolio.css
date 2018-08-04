@@ -14,8 +14,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.portfolio-container > h1 {
+    margin-top: 5%;
+}
+
 @media (min-width: 1024px){
     .portfolio-container {
         height: 15vh;
+    }
+
+    .portfolio-container > h1 {
+        margin-top: 0;
     }
 }
