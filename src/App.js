@@ -167,7 +167,7 @@ class App extends Component {
         </div>
 
         <div className="arrow-down">
-          <FontAwesomeIcon icon='chevron-down' />
+        <AnchorLink href="#about"><FontAwesomeIcon icon='chevron-down' /></AnchorLink>
         </div>
         </div>
 
