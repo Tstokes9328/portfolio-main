@@ -11,11 +11,12 @@ class Navbar extends Component {
         super()
     
         this.state = {
-          dropDown: false
+          dropDown: false,
         };
     
         //Binds
         this.dropDown = this.dropDown.bind(this);
+        this.handleLinkClick = this.handleLinkClick.bind(this);
       }
     
       //DropDown State Changer
@@ -23,10 +24,17 @@ class Navbar extends Component {
         this.setState({dropDown: !this.state.dropDown})
       }
 
+      //Closes drop down after you select a nav link on mobile
+      handleLinkClick(event){
+        this.setState({
+            dropDown: !this.state.dropDown
+        })
+      }
+
     render(){
         return (
         <nav className="nav-bar">
-        <h1>TFS</h1>
+        <AnchorLink href="#home"><h1>TFS</h1></AnchorLink>
             <div className="patty-container">
             <div className="drop-down-patty" onClick={() => this.dropDown()}>
                 <div className="patty-bar"></div>
@@ -36,10 +44,10 @@ class Navbar extends Component {
 
             <div className={this.state.dropDown ? "dropDownTrue" : "dropDownFalse"}>
                 <ul>
-                <AnchorLink href="#about"><li>About</li></AnchorLink>
-                <AnchorLink href="#skills"><li>Skills</li></AnchorLink>
-                <AnchorLink href="#projects"><li>Projects</li></AnchorLink>
-                <AnchorLink href="#contact"><li>Contact</li></AnchorLink>
+                <AnchorLink href="#about"><li onClick={this.handleLinkClick}>About</li></AnchorLink>
+                <AnchorLink href="#skills"><li onClick={this.handleLinkClick}>Skills</li></AnchorLink>
+                <AnchorLink href="#projects"><li onClick={this.handleLinkClick}>Projects</li></AnchorLink>
+                <AnchorLink href="#contact"><li onClick={this.handleLinkClick}>Contact</li></AnchorLink>
                 </ul>
             </div>
             </div>

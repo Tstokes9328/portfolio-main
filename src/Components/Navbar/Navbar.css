@@ -13,14 +13,21 @@
     background-color: #1a1a1a;
     z-index: 5;
     top: 0;
+    box-shadow: 1px 1px 15px #1a1a1a;
 }
 
-.nav-bar > h1 {
+.nav-bar > a {
     font-size: 25px;
     margin-left: 10%;
     margin-top: 6.5%;
     color: #ff305b;
+    text-decoration: none;
 }
+
+.nav-bar > a:hover {
+    cursor: pointer;
+}
+
 
 /* Nav Drop Down */
 .patty-container {
@@ -87,6 +94,7 @@
     display: none;
 }
 
+
 @media(min-width: 1024px){
     /* Nav Bar */
 .nav-bar {
@@ -99,7 +107,7 @@
     align-items: center;
 }
 
-.nav-bar > h1 {
+.nav-bar > a {
     font-size: 30px;
     margin-left: 0;
     margin-top: 0;

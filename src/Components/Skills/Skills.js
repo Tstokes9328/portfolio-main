@@ -39,7 +39,6 @@ class Skills extends Component {
                     <p>Using Test Driven Development I can make sure code executes how it suppose to</p>
                 </div>
             </div>
-            <hr style={{width: '60%', marginTop: '7%'}}/>
         </div>
       </div>
     )

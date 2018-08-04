@@ -161,13 +161,13 @@ class App extends Component {
         <Navbar />
 
         {/* Welcome message */}
-        <div className="welcome-container">
+        <div className="welcome-container" id="home">
           <h1>TAYTE STOKES</h1>
           <h2>Web Developer</h2>
         </div>
 
         <div className="arrow-down">
-        <AnchorLink href="#about"><FontAwesomeIcon icon='chevron-down' /></AnchorLink>
+        <AnchorLink href="#about"><FontAwesomeIcon icon='chevron-down'/></AnchorLink>
         </div>
         </div>
 
