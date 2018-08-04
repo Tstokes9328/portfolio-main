@@ -31,7 +31,7 @@ class Skills extends Component {
                         <span id="back-header-three"></span>
                     </div>
                     <h1>Back End Development</h1>
-                    <p>Front end development is primarily what I focus in. React is my framework of choice when working in the front end.</p>
+                    <p>Creating a clean and reliable server is my primary focus when developing in the back end. Right now, NodeJs with an ExpressJs framework is my go to.</p>
                 </div>
 
                 <div className="design-container">
@@ -41,7 +41,7 @@ class Skills extends Component {
                             <span id="design-header-three"></span>
                     </div>
                         <h1>Responsive Design</h1>
-                        <p>Front end development is primarily what I focus in. React is my framework of choice when working in the front end.</p>
+                        <p>Responsive design is a priority when developing. I plan to build webpage layouts that are structered for flexible use amoung different view port sizes.</p>
                     </div>
                 </div>
             </div>
