@@ -112,12 +112,12 @@
     .project-one-container {
         width: 100%;
         height: 55vh;
-        background-color: #252525;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
+        background-color: #1a1a1a;
     }
     
     .project-one-info {

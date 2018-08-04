@@ -1,11 +1,13 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 
 .skills-container {
     width: 100%;
     height: 130vh;
-    background-color: #f1f1f1;
-    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .services-container {
@@ -17,13 +19,9 @@
 }
 
 .services-container > h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: #ff305b;
     margin-top: 15%;
-}
-
-.services-container > hr {
-    margin-top: 10%;
 }
 
 .services-card-container {
@@ -41,33 +39,7 @@
     align-items: center;
     width: 90%;
     height: 30vh;
-    border-radius: 5px 5px 5px 5px;
     margin-bottom: 10%;
-}
-
-.front-end-icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 40px;
-    margin-top: 10%;
-}
-
-.front-end-container > h1 {
-    font-size: 22px;
-    color: #ff305b;
-    margin-top: 5%;
-}
-
-.front-end-container > p {
-    text-align: center;
-    margin: 0 3%;
-    margin-top: 5%;
-    color: #757575;
 }
 
 .back-end-container {
@@ -81,30 +53,6 @@
     margin-bottom: 10%;
 }
 
-.back-end-icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 40px;
-    margin-top: 10%;
-}
-
-.back-end-container > h1 {
-    font-size: 22px;
-    color: #ff305b;
-    margin-top: 5%;
-}
-
-.back-end-container > p {
-    text-align: center;
-    margin: 0 3%;
-    margin-top: 5%;
-    color: #757575;
-}
 
 .endpoint-container {
     display: flex;
@@ -116,34 +64,12 @@
     border-radius: 5px 5px 5px 5px;
 }
 
-.endpoint-icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 40px;
-    margin-top: 10%;
-}
-
-.endpoint-container > h1 {
-    font-size: 22px;
-    color: #ff305b;
-    margin-top: 5%;
-}
-
-.endpoint-container > p {
-    text-align: center;
-    margin: 0 3%;
-    margin-top: 5%;
-    color: #757575;
-}
 
 @media (min-width: 1024px){
     .skills-container {
         height: 70vh;
+        width: 80%;
+        margin: 0 auto;
     }
     
     .services-container {
@@ -155,13 +81,8 @@
     }
     
     .services-container > h1 {
-        font-size: 35px;
+        font-size: 40px;
         margin-top: 4%;
-    }
-    
-    .services-container > hr {
-        margin-top: 2%;
-        width: 10%;
     }
     
     .services-card-container {
@@ -172,34 +93,6 @@
         margin-top: 5%;
         width: 90%;
     }
-
-    .front-end-container:hover {
-        background-color: #252525;
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .front-end-container:hover > .front-end-icon {
-        font-size: 50px;
-    }
-
-    .back-end-container:hover {
-        background-color: #252525;
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .back-end-container:hover > .back-end-icon {
-        font-size: 50px;
-    }
-
-    .endpoint-container:hover {
-        background-color: #252525;
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .endpoint-container:hover > .endpoint-icon {
-        font-size: 50px;
-    }
-
     
     .front-end-container {
         display: flex;
@@ -208,35 +101,7 @@
         align-items: center;
         width: 30%;
         height: 35vh;
-        border-radius: 4px 4px 4px 4px;
-        background-color: #1a1a1a;
         margin-bottom: 5%;
-    }
-    
-    .front-end-icon {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 40px;
-        margin-top: 10%;
-        color: white;
-    }
-    
-    .front-end-container > h1 {
-        font-size: 22px;
-        color: #ff305b;
-        margin-top: 5%;
-    }
-    
-    .front-end-container > p {
-        text-align: center;
-        margin: 0 3%;
-        margin-top: 5%;
-        color: #757575;
     }
     
     .back-end-container {
@@ -251,32 +116,6 @@
         margin-bottom: 5%;
    }
     
-    .back-end-icon {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 40px;
-        margin-top: 10%;
-        color: white;
-    }
-    
-    .back-end-container > h1 {
-        font-size: 22px;
-        color: #ff305b;
-        margin-top: 5%;
-    }
-    
-    .back-end-container > p {
-        text-align: center;
-        margin: 0 3%;
-        margin-top: 5%;
-        color: #757575;
-    }
-    
     .endpoint-container {
         display: flex;
         flex-direction: column;
@@ -287,32 +126,6 @@
         border-radius: 4px 4px 4px 4px;
         background-color: #1a1a1a;
         margin-bottom: 5%;
-    }
-    
-    .endpoint-icon {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 40px;
-        margin-top: 10%;
-        color: white;
-    }
-    
-    .endpoint-container > h1 {
-        font-size: 22px;
-        color: #ff305b;
-        margin-top: 5%;
-    }
-    
-    .endpoint-container > p {
-        text-align: center;
-        margin: 0 3%;
-        margin-top: 5%;
-        color: #757575;
     }
 
 }

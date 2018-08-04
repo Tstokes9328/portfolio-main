@@ -177,10 +177,8 @@ class App extends Component {
 
         <About/>
         <Skills/>
-        <Tech />
         <Portfolio />
-        <ProjectOne />
-        <ProjectTwo />
+        <PortfolioTwo />
         <Contact />
         <Footer />
 
