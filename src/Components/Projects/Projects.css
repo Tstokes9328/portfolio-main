@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .projects-container {
-    height: 70vh;
+    height: 120vh;
     width: 100%;
     background-color: #eee;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
 .project-tab {
@@ -15,9 +16,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 73%;
+    width: 100%;
     height: 5vh;
-    margin: 0 auto;
+    margin-left: 8%;
 }
 
 .project-tab > button {
@@ -39,6 +40,72 @@
     border-bottom: 2px solid #1a1a1a;
     transform: scale(1);
     transition: transform .5s ease-in-out;
+}
+
+
+.current-project-container {
+    width: 87%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-project-info {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-project-info > h1 {
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+.current-project-info > h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.current-project-info > p {
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 5%;
+    text-align: left;
+    margin-right: 5%;
+    color: #757575;
+}
+
+.current-project-links {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.current-project-links > a {
+    color: #1a1a1a;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-right: 10%;
+}
+
+.current-project-pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-project-pictures > img {
+    width: 90%;
+    margin-top: 5%;
+}
+
+#utcm {
+    height: 50vh;
 }
 
 @media (min-width: 1024px){
@@ -139,7 +206,8 @@
 
     .current-project-pictures > img {
         width: 90%;
-        margin-top: 18%;
+        margin-top: 20%;
         margin-left: 8%;
+        box-shadow: 0 0 10px #000;
     }
 }

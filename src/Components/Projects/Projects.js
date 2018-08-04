@@ -40,7 +40,7 @@ class Projects extends Component {
                     <button 
                     style={this.state.currentlySelected === 'spootify' ? {borderBottom: '2px solid #1a1a1a'} : {}}
                     onClick={this.showSpootify}
-                    >Spootify</button>
+                    >Spotify Clone</button>
                 </div>
                 {
                     this.state.currentlySelected === 'utahcarmeet' ?
@@ -54,14 +54,14 @@ class Projects extends Component {
                                 <a href="https://github.com/Tstokes9328/dev-mtn-personal/tree/master/utah-car-meet"><h2>Github</h2></a>
                             </div>
                         </div>
-                        <div className="current-project-pictures">
+                        <div className="current-project-pictures" id="utcm">
                             <img src={require('../../assets/utc-landing.jpeg')} alt="utah car meets landing page"/>
                         </div>
                     </div>
                     :
                     <div className="current-project-container">
                         <div className="current-project-info">
-                            <h1>Spootify</h1>
+                            <h1>Spotify Clone</h1>
                             <h2>React | Redux | NodeJs | PassportJs | Spotify API</h2>
                             <p>Spootify is a group developed app that I worked on with <a href="http://mkorotkov.com">Mikhail Korotkov</a> and <a href="http://jordanbuonforte.com">Jordan Buonforte</a>. The goal of the project was to clone the spotify desktop application, but within a web browser. Using Spotify's web API and playback SDK, we we're able to recreate a sleek looking Spotify clone as well as producing music playback. My main responsibilty was to achieve authentication using a users Spotify information through PassportJs, setting up the NodeJs server to connect to th Spotify API, and initializing and connecting the Spotify SDK music player.</p>
                             <div className="current-project-links">
