@@ -14,7 +14,7 @@ class About extends Component {
 
         <div className="about-split-container">
           <div className="personal-bio-container">
-            <h1>ABOUT ME</h1>
+            <h1>| ABOUT ME</h1>
             <p>Hi, I'm Tayte. I'm a simple guy who loves to do not so simple things. When I'm not hunched over my computer writing code you can usually catch me riding my skateboard or snowboard, creating a new Spotify playlist, laughing at my own joke, at the movies, or spending time with my friends and family.</p>
 
             <p>Innovation excites me and is what drove me to start typing random keys in hopes a website will be created. I'm always looking for opportunities to improve my skillset to later use to contribute to new innovations.</p>

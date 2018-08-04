@@ -49,26 +49,24 @@
     align-items: center;
     width: 90%;
     height: 30vh;
-    border-radius: 5px 5px 5px 5px;
     margin-bottom: 10%;
 }
 
 
-.endpoint-container {
+.design-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 90%;
     height: 30vh;
-    border-radius: 5px 5px 5px 5px;
 }
 
 
 @media (min-width: 1024px){
     .skills-container {
-        height: 70vh;
-        width: 80%;
+        height: 75vh;
+        width: 83%;
         margin: 0 auto;
     }
     
@@ -82,7 +80,8 @@
     
     .services-container > h1 {
         font-size: 40px;
-        margin-top: 4%;
+        margin-top: 2%;
+        margin-left: -75%;
     }
     
     .services-card-container {
@@ -100,8 +99,63 @@
         justify-content: flex-start;
         align-items: center;
         width: 30%;
-        height: 35vh;
+        height: 45vh;
         margin-bottom: 5%;
+        box-shadow: 0 0 10px #ccc;
+        transition: all .5s ease;
+    }
+
+    .front-end-container:hover {
+        background-color: #eee;
+        box-shadow: none;
+    }
+
+    .front-end-header {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .front-end-header #front-header-one {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .front-end-header #front-header-two {
+        height: 70%;
+        width: 25%;
+        background: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        color: white;
+    }
+
+    .front-end-header #front-header-three {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .front-end-container > h1 {
+        font-size: 20px;
+        color: #1a1a1a;
+        margin-top: 10%;
+    }
+
+    .front-end-container > p {
+        color: #757575;
+        line-height: 175%;
+        text-align: left;
+        width: 80%;
+        margin-top: 10%;
     }
     
     .back-end-container {
@@ -110,22 +164,128 @@
         justify-content: flex-start;
         align-items: center;
         width: 30%;
-        height: 35vh;
-        border-radius: 4px 4px 4px 4px; 
-        background-color: #1a1a1a;
+        height: 45vh;
         margin-bottom: 5%;
+        box-shadow: 0 0 10px #ccc;
+        transition: all .5s ease;
    }
+
+   .back-end-container:hover {
+    background-color: #eee;
+    box-shadow: none;
+    }
+
+    .back-end-header {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .back-end-header #back-header-one {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .back-end-header #back-header-two {
+        height: 70%;
+        width: 25%;
+        background: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        color: white;
+    }
+
+    .back-end-header #back-header-three {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .back-end-container > h1 {
+        font-size: 20px;
+        color: #1a1a1a;
+        margin-top: 10%;
+    }
+
+    .back-end-container > p {
+        color: #757575;
+        line-height: 175%;
+        text-align: left;
+        width: 80%;
+        margin-top: 10%;
+    }
     
-    .endpoint-container {
+    .design-container {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         width: 30%;
-        height: 35vh;
-        border-radius: 4px 4px 4px 4px;
-        background-color: #1a1a1a;
+        height: 45vh;
         margin-bottom: 5%;
+        box-shadow: 0 0 10px #ccc;
+        transition: all .5s ease;
+    }
+
+    .design-container:hover {
+        background-color: #eee;
+        box-shadow: none;
+    }
+    
+    .design-header {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .design-header #design-header-one {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .design-header #design-header-two {
+        height: 70%;
+        width: 25%;
+        background: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        color: white;
+    }
+
+    .design-header #design-header-three {
+        height: 3%;
+        width: 20%;
+        background: #1a1a1a;
+    }
+
+    .design-container > h1 {
+        font-size: 20px;
+        color: #1a1a1a;
+        margin-top: 10%;
+    }
+
+    .design-container > p {
+        color: #757575;
+        line-height: 175%;
+        text-align: left;
+        width: 80%;
+        margin-top: 10%;
     }
 
 }

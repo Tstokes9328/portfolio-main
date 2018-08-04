@@ -9,8 +9,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 //Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import { faServer } from '@fortawesome/free-solid-svg-icons'
 import { faSlidersH } from '@fortawesome/free-solid-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
@@ -45,7 +45,7 @@ class App extends Component {
   render() {
   
     //FontAwesome Library
-    library.add(fab, faChevronDown, faCode, faServer, faSlidersH, faDatabase, faCloud, faMobileAlt, faEnvelope, faDesktop, faTablet, faMobile)
+    library.add(fab, faChevronDown, faPencilAlt, faServer, faSlidersH, faDatabase, faCloud, faMobileAlt, faEnvelope, faDesktop, faTablet, faMobile, faCode)
 
     return (
       <div className="App">
