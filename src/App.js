@@ -17,6 +17,9 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faDesktop } from '@fortawesome/free-solid-svg-icons'
+import { faTablet } from '@fortawesome/free-solid-svg-icons'
+import { faMobile } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -26,6 +29,7 @@ import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Tech from './Components/Technologies/Technologies';
 import Portfolio from './Components/Portfolio/Portfolio';
+import PortfolioTwo from './Components/Portfolio/PortfolioTwo';
 import ProjectOne from './Components/ProjectOne/ProjectOne';
 import ProjectTwo from './Components/ProjectTwo/ProjectTwo';
 import ProjectThree from './Components/ProjectThree/ProjectThree';
@@ -41,7 +45,7 @@ class App extends Component {
   render() {
   
     //FontAwesome Library
-    library.add(fab, faChevronDown, faCode, faServer, faSlidersH, faDatabase, faCloud, faMobileAlt, faEnvelope)
+    library.add(fab, faChevronDown, faCode, faServer, faSlidersH, faDatabase, faCloud, faMobileAlt, faEnvelope, faDesktop, faTablet, faMobile)
 
     return (
       <div className="App">
@@ -167,7 +171,7 @@ class App extends Component {
         </div>
 
         <div className="arrow-down">
-        <AnchorLink href="#about"><FontAwesomeIcon icon='chevron-down'/></AnchorLink>
+        <AnchorLink offset={70} href="#about"><FontAwesomeIcon icon='chevron-down'/></AnchorLink>
         </div>
         </div>
 
@@ -175,8 +179,7 @@ class App extends Component {
         <Skills/>
         <Tech />
         <Portfolio />
-        <ProjectOne />
-        <ProjectTwo />
+        <PortfolioTwo />
         <Contact />
         <Footer />
 
