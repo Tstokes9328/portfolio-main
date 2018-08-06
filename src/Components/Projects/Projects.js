@@ -34,11 +34,11 @@ class Projects extends Component {
             <div className="projects-container">
                 <div className="project-tab">
                     <button 
-                    style={this.state.currentlySelected === 'utahcarmeet' ? {borderBottom: '2px solid #1a1a1a'} : {}}
+                    style={this.state.currentlySelected === 'utahcarmeet' ? {border: '2px solid #1a1a1a'} : {}}
                     onClick={this.showUtahCarMeet}
                     >Utah Car Meet</button>
                     <button 
-                    style={this.state.currentlySelected === 'spootify' ? {borderBottom: '2px solid #1a1a1a'} : {}}
+                    style={this.state.currentlySelected === 'spootify' ? {border: '2px solid #1a1a1a'} : {}}
                     onClick={this.showSpootify}
                     >Spotify Clone</button>
                 </div>
