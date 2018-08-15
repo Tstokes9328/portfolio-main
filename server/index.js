@@ -32,7 +32,7 @@ app.post('/send/email', (req, res) => {
     let mail = {
         from: email,
         to: 'taytestokes9328@gmail.com',
-        html: "Name: " + name + "<br/> Email: " + email + "<br/> Subject:" + subject + "<br/> Message: " + message + "<br/> "
+        html: "Name: " + name + "<br/> Email: " + email + "<br/> Message: " + message + "<br/> "
     }
     transporter.sendMail(mail, (error, info) => {
         if(error){

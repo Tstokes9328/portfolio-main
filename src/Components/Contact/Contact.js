@@ -64,10 +64,10 @@ class Contact extends Component {
         </div>
         <div className="form-container">
             <div className="name-email-container">
-                <input type="text" placeholder="Name" onChange={(e) => this.handleInputName(e.target.value)} value={this.state.name}/>
-                <input type="text" placeholder="Email" onChange={(e) => this.handleEmailChange(e.target.value)} value={this.state.email}/>
+                <input type="text" placeholder="Name" onChange={(e) => this.handleInputName(e.target.value)} value={this.state.name} required/>
+                <input type="email" placeholder="Email" onChange={(e) => this.handleEmailChange(e.target.value)} value={this.state.email} required/>
             </div>
-            <textarea id="" cols="30" rows="10" placeholder="Message" onChange={(e) => this.handleMessageChange(e.target.value)} value={this.state.message}></textarea>
+            <textarea id="" cols="30" rows="10" placeholder="Message" onChange={(e) => this.handleMessageChange(e.target.value)} value={this.state.message} required></textarea>
             <button onClick={() => this.submitEmail()}><FontAwesomeIcon icon="envelope" id="message"/>Send Message</button>
         </div>
       </div>

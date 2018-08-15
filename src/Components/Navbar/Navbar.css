@@ -15,7 +15,7 @@
     background-color: #1a1a1a;
     z-index: 5;
     top: 0;
-    box-shadow: 1px 1px 15px #1a1a1a;
+    /* box-shadow: .5px .5px 10px 2px #1a1a1a; */
     font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
 }
